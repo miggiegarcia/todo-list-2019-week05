@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HP To Do List </title></title>
+    <meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <section class=justList>
+      <h1>Slytherin's To Do List! </h1>
+      <h3>You can add items to you to do list using the "add button."To mark completed, simply click on the items.
+      "Cler Completed" button will only clear your completed items off of your list. "Clear list" will clear the entire list.</h3>
+
+    <section>
+      <input id="addToList">
+      <button id="addButton">add</button>
+    </section>
+
+    <section>
+      <ul id="lst" class="list"></ul>
+    </section>
+
+
+    <p>You have <span id="dnCnt">NADA</span> item completed</p>
+    <button id="clrLst">Clear List</button>
+    <button id="clrCmp">Clear Completed</button>
+    <!-- this connects JS to html and needs to be at bottom so it loads last after CSS and HTML -->
+    <script type="text/javascript" src="js/main.js"></script>
+  </section>
+  </body>
+</html>
